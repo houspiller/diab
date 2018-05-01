@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:text="Nome do Profissional:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insere_profissional_nome"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:text="Especialidade:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insere_profissional_especialidade"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:text="Nome da Clínica:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insere_profissional_nome_clinica"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:text="Telefone da clínica:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insere_profissional_telefone"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:text="Celular:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insere_profissional_celular"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:text="Número do conselho:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insere_profissional_numero_conselho"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:text="Site:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insere_profissional_site"/>
+
+
+
+
+
+
+
+</LinearLayout>

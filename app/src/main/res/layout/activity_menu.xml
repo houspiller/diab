@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/menu_botao_lista_alimentos"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:text="Lista de Alimentos"
+        android:onClick="irListaAlimentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/menu_botao_calculadora_glicemica"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:text="Calculadora Glicêmica"
+        android:onClick="irCalculadoraGlicêmica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/menu_botao_lista_profissionais"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:text="Meus Profissionais da Saúde"
+        android:onClick="irProfissionaisDaSaude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
